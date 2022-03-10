@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2? family= Kaushan+Script & family= Lato:ital,wght@1,300 & family= Smooch+Sans:wght@600 & display=swap' );
+@import url('https://fonts.googleapis.com/css2? family= Hubballi & family= Kaushan+Script & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Hubballi', cursive;
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    position: relative;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    transform: translatex(0%)
+}
+
+
+
+nav a:hover{
+    border-bottom: 4px solid seagreen;
+    transition: all 0.3s;
+}
+
+
+
+
+
+.header{
+
+    background-image: url(/img/poo.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+
+}
+
+.icono{
+    height: 40px;
+    width: 40px;
+}
+
+.contenedor{
+    width: 100%;
+    height: 70vh;
+}
+
+#btn-menu {
+    display: none;
+}
+
+.contenedor label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contenido{
+
+    margin: 50px 50px;
+    height: 300px;
+    
+}
+
+.contenido h1{
+    color: aliceblue;
+    padding: 50px 30px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contenido p{
+    color: aliceblue;
+    padding: 30px 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: end;
+}
+
+.menu li a {
+    display: block;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+
+
+/* QUIENES SOMOS */
+
+.quienes-somos{
+    text-align: center;
+    padding: 50px 30px;
+    background-color: rgb(195, 190, 190);
+    color: aliceblue;
+}
+
+.quienes-somos p{
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* SERVICIOS */
+
+.ventas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(195, 190, 190);
+    padding-bottom: 30px;
+}
+
+
+ .productos{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin: 30px 0;
+     padding: 25px 0;
+
+ }
+
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.foto-producto{
+    height: 250px;
+    width: 250px;
+}
+
+.precio{
+    font-size: 20px;
+    
+}
+
+.detalle{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* CONSEJOS */
+
+.consejos{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    /* width: 100%; */
+    font-family:'Hubballi', cursive;
+    background: #efefef;
+    padding: 40px;
+    text-align: center;
+}
+
+.consejos2{
+    display: flex;
+    background: #efefef;
+    margin: auto;
+    padding: 15px 0;
+}
+
+
+
+.foto-consejo{
+    height: 220px;
+    width: 220px;
+}
+
+.consejo-fotos{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 11px 0px #00000052;
+
+
+}
+
+.consejo-fotos h2{
+    font-size: 22px;
+    padding-bottom: 10px;
+
+}
+
+.consejo-fotos p{
+    font-size: 18px;
+}
+
+
+/* REGISTRO */
+
+
+
+.loguin{
+    background-color: rgb(195, 181, 181);
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 17px;
+    width: 400px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.usucontra{
+    font-size: 25px;
+}
+
+
+.btn1{
+    font-size: 22px;
+    width: 40%;
+    height: 50px;
+    border: 1px solid darkgray;
+}
+
+
+
+input{
+    margin-bottom: 40px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    max-width: 80%;
+}
+
+.titulo-form{
+    margin-bottom: 15px;
+}
+
+
+
+
+.fondo{
+    background-image: url(/img/registro.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    background-color: gray;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.contactanos{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin: 30px 0;  
+}
+
+.redes{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.redes i{
+    padding: 0 30px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:768px) {
+    
+     .consejos2{
+
+        display: block;
+    
+    }
+} 
+
+
+@media (max-width:474px){
+
+    .contenedor label {
+
+        display: block;
+        width: 100%;
+    }
+
+    
+    .contenido{
+
+        margin: auto;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: rgb(195, 190, 190);
+        width: 100%;
+        margin-left: -100%;
+        height: 100vh;
+        justify-content: center;
+        transition: all 0.5s;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-evenly;
+        margin-top: -100px;
+    }
+
+
+    .menu li{
+
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .menu li a{
+
+        font-size: 30px;
+        padding: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        border-radius: 5%
+    }
+
+
+    #btn-menu:checked ~ .menu {
+
+        margin: 0;
+    }
+
+
+    .loguin{
+        width: 80%;
+    }
+
+}
